@@ -1,0 +1,29 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table {
+    border: 1px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+tbody, td {
+    border: 1px solid black
+}
+table, td, tr, th {
+    padding: 5px;
+    border-collapse: collapse;
+}
+tbody th {
+    background-color: rgb(43, 177, 226);
+    color: white;
+}
+thead th {
+    background-color: aqua;
+}
+table tbody tr:nth-child(1) td:nth-child(2) {
+    background-color: bisque;
+}
+.columns{
+    column-count: 3;
+    column-rule: 1px solid silver;
+    column-gap: 55px;
+}
