@@ -19,9 +19,6 @@ tbody th {
 thead th {
     background-color: aqua;
 }
-table tbody tr:nth-child(1) td:nth-child(2) {
-    background-color: bisque;
-}
 .columns{
     column-count: 3;
     column-rule: 1px solid silver;
